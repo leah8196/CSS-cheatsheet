@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Cheatseat</h1>
+    </header>
+    <h2>Basics of How to Write CSS</h2>
+    <p class="introduction">CSS code is made up of two main parts, a selector and a declaration block. The declaration block consists of property-value pairs. Here we will take a look at some of the main CSS selectors, the elements of the decloration block and then how it all goes together. </p>
+    <!--Selector table  -->
+    <div>
+    <table class="selectors">
+        <thead>
+        <tr>
+            <th>Selector Type</th>
+            <th>Example</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> <span id="code">*</span></td>
+            <td><span id="code">*</span></td>
+            <td class="column3">Applies style to the entire document. This is the easiest to override with more specific declarations. </td>
+        </tr>
+        <tr>
+            <td>element</td>
+            <td><span id="code">p</span></td>
+            <td class="column3">Applies style to an html element type</td>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td><span id="code">.class</span></td>
+            <td class="column3">Applies style to a specific class specified by class="class"</td>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td><span id="code">#id</span></td>
+            <td class="column3">Applies style to a single html element. Each id can only be used once in each document. Specified by id=""</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+    <!-- Declaration table -->
+<div>
+    <table class="declaration">
+       <thead>
+        <tr>
+           <th colspan="2">Basic Elements of a Declaration Black</th>
+         
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span id="code">{ }</span></td>
+            <td class="column3">Curly brackets</td>
+       </tr>
+       <tr>
+        <td><span id="code">font-family</span></td>
+        <td class="column3">Property name</td>
+       </tr>
+       <tr>
+           <td><span id="code">:</span></td>
+           <td class="column3">colon</td>
+       </tr>
+       <tr>
+           <td><span id="code">Helvetica</span></td>
+           <td class="column3">Value</td>
+       </tr>
+       <tr>
+           <td><span id="code">;</span></td>
+           <td class="column3">Semi-colon</td>
+       </tr>
+    </tbody>
+    </table>
+</div>
+<!-- example block -->
+    <div class="example">
+    <h3>Putting it all together you get something that looks like this </h3>
+        <p id="css-example"> .class { 
+      <br> Font-family: Helvetica; <br>
+      }
+    </p>
+</div>
+</body>
+</html>

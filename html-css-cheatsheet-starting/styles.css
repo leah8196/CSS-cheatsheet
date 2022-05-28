@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+    background-color:bisque;
+    font-family: monospace;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.introduction {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 25px 300px;
+    line-height: 1.5;
+    font-size: 150%;
+}
+
+table {
+    padding: 25px auto;
+    margin: auto;
+    display: center;
+    text-align: left;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    width: 800px;
+    position: relative;
+
+}
+
+td {
+    text-align: left;
+    padding: 10px 0px;
+    border-top: 2px solid black;
+    font-size: 120%;
+}
+
+th {
+    padding: 10px 10px;
+    background-color: burlywood;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#code {
+    color: brown;
+    background-color: rgb(255, 255, 255);
+}
+
+.declaration {
+    margin: 25px auto;
+    position: relative;
+}
+
+.example {
+    border: 2px solid black;
+    padding: 2px 2px;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    width: 796px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+    padding: 25px 25px;
+    margin-top: 2px;
+    font-size: 150%;
+}
+
+#css-example {
+    text-align: left;
+    font-size: 200%;
+    line-height: 1.5;
+    margin: 10px auto;
+    width: fit-content;
+    color: brown;
+    padding-left: 10px;
+    background-color: white;
+}
+
+
+
+
+
